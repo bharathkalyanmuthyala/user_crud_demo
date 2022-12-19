@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+
+.add-user{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.form-control{
+    border:none ;
+    border: 1px solid white;
+    background-color: transparent;
+    outline: none ;
+    box-shadow: none !important;
+    border-radius: 0;
+    color:#fff;
+}
+
+.add-user-btn{
+    background-color: #D11534;
+    color: #fff;
+    font-size: 1.2rem;
+}

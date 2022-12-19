@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+
+.removed-users{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.removed-users-list{
+    padding: 20px;
+}
+.removed-users-list li{
+   
+   max-width: 600px;
+   margin: auto;
+   margin-bottom: 15px;
+   
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #c5b3bb;  */
+    background-image: url(../../images/6.webp);
+    background-size: auto;
+    /* background-repeat: no-repeat; */
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.removed-user-name{
+    color:#fff;
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    padding: 10px ;
+}
+
+.removed-user-image{
+    border-radius: 10px;
+}
+
+.user-restore-btn{
+    background-color: #726c6f;
+    border: none;
+    padding: 5px 10px;
+    color:#fff;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
