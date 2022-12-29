@@ -163,7 +163,7 @@ function Users() {
         <p className="text-danger fw-bold display-2 text-center">{error}</p>
       )}
       {/* diaplay users data */}
-      {users.length === 0 ? (
+      {users.length === 0 && error.length === 0 ? (
         <div className="text-center text-warning display-3 mt-5">
           Users list is empty !!
           <div>

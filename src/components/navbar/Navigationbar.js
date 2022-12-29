@@ -1,26 +1,27 @@
 import React from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
-import {FaUsers,FaUsersSlash} from 'react-icons/fa'
+import { FaUsers, FaUsersSlash } from "react-icons/fa";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
-function Navbar() {
+function Navigationbar() {
+
   const activeLink = {
     color: "#EEF0F1",
-   
     fontWeight: "bold",
-    fontSize:"1.2rem",
-   
-  };
-  const inactiveLink = {
-    color: "#EEF0F1",
-    fontSize:"1.2rem",
-    
+    fontSize: "1.2rem",
   };
 
+  // const inactiveLink = {
+  //   color: "blue",
+  //   fontSize: "1.2rem",
+  // };
 
   return (
     <div>
-      <nav className="navbar navbar-expand-sm " >
+      <nav className="navbar navbar-expand-sm ">
         <div className="container-fluid">
           <button
             className="navbar-toggler"
@@ -28,26 +29,30 @@ function Navbar() {
             data-bs-toggle="collapse"
             data-bs-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01"
-            aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             <a className="navbar-brand" href="#">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/WLM_logo-2.svg/404px-WLM_logo-2.svg.png" width="60px" className="shadow" alt="" />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/WLM_logo-2.svg/404px-WLM_logo-2.svg.png"
+                width="60px"
+                className="shadow"
+                alt=""
+              />
             </a>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               {/* users */}
               <li className="nav-item">
                 <NavLink
                   className="nav-link "
-                  style={({isActive}) => {
-                    return isActive ? activeLink :  inactiveLink;
+                  style={({ isActive }) => {
+                    return isActive ? activeLink : null;
                   }}
                   to="/users"
                 >
-                  <FaUsers className='users-icon'/>
+                  <FaUsers className="users-icon" />
                   Users
                 </NavLink>
               </li>
@@ -55,8 +60,8 @@ function Navbar() {
               <li className="nav-item">
                 <NavLink
                   className="nav-link "
-                  style={({isActive}) => {
-                    return isActive ? activeLink : inactiveLink;
+                  style={({ isActive }) => {
+                    return isActive ? activeLink : null;
                   }}
                   to="/removed-users"
                 >
@@ -72,4 +77,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Navigationbar;

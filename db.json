@@ -1,20 +1,6 @@
 {
   "users": [
     {
-      "name": "aditya sai",
-      "email": "aditya@gmail.com",
-      "dob": "2022-12-20",
-      "image": "https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg",
-      "id": 76
-    },
-    {
-      "name": "bhanu teja",
-      "email": "bhanu@gmail.com",
-      "dob": "2022-12-05",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv7_Yv8pn3xxyOIyEYUx8LvEaR_DRoLS_jdxvJa2JVSAe-8eNpTxuu-Sv_Now1qReoFeI&usqp=CAU",
-      "id": 30
-    },
-    {
       "name": "varun",
       "email": "varun@mail.com",
       "dob": "2022-12-24",
@@ -22,11 +8,32 @@
       "id": 88
     },
     {
+      "name": "bhanu ",
+      "email": "bhanu@gmail.com",
+      "dob": "2022-12-05",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv7_Yv8pn3xxyOIyEYUx8LvEaR_DRoLS_jdxvJa2JVSAe-8eNpTxuu-Sv_Now1qReoFeI&usqp=CAU",
+      "id": 30
+    },
+    {
+      "name": "aditya sai",
+      "email": "aditya@gmail.com",
+      "dob": "2022-12-20",
+      "image": "https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg",
+      "id": 76
+    },
+    {
       "name": "chetan",
       "email": "chetan@gmail.com",
       "dob": "2022-12-25",
       "image": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80",
       "id": 74
+    },
+    {
+      "name": "Test",
+      "email": "test@gmail.com",
+      "dob": "2022-12-15",
+      "image": "https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/people19.png",
+      "id": 90
     }
   ],
   "removedUsers": []
